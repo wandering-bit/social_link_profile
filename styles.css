@@ -19,8 +19,8 @@ body {
 }
 
 #mainbody {
-    height: 400px;
-    width: 200px;
+    height: 600px;
+    width: 400px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
     display: flex;
