@@ -1,0 +1,99 @@
+span {
+    font-family: Inter;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+#mainbody {
+    height: 400px;
+    width: 200px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+#namedesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    gap: 5px;
+}
+
+#name {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#location {
+    color: hsl(75, 94%, 57%);
+    font-size: 10px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#desc {
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+#buttonsdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 9px;
+}
