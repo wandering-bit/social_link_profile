@@ -33,9 +33,9 @@ body {
 
 img {
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    margin-top: 30px;
+    height: 90px;
+    width: 90px;
+    margin-top: 40px;
 }
 
 #namedesc {
@@ -45,8 +45,8 @@ img {
     justify-content: center;
     margin: 0px;
     padding: 0px;
-    margin-top: 20px;
-    gap: 5px;
+    margin-top: 30px;
+    gap: 7px;
 }
 
 #name {
@@ -73,7 +73,7 @@ img {
     font-size: 13px;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #buttonsdiv {
